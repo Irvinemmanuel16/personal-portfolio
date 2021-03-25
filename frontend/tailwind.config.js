@@ -6,19 +6,19 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
-      sm: '640px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px',
-      '2xl': '1536px',
+      sm: '360px',
+      md: '700px',
+      lg: '900px',
+      xl: '1140px',
+      '2xl': '1366px',
     },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      primary: '000D20',
+      primary: '#000D20',
       black: colors.black,
       white: colors.white,
-      gray: colors.coolGray,
+      gray: '#707070',
       red: colors.red,
       yellow: colors.amber,
       green: colors.emerald,
@@ -26,6 +26,7 @@ module.exports = {
       indigo: colors.indigo,
       purple: colors.violet,
       pink: colors.pink,
+      orange: '#F57C1B'
     },
     spacing: {
       px: '1px',

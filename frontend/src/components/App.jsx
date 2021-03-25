@@ -1,16 +1,18 @@
-import "tailwindcss/tailwind.css"
+import "tailwindcss/tailwind.css";
+import Header from './Header';
+import Hero from "./Hero";
+import SobreMi from './SobreMi'
+
+
 import '../styles/App.css';
 
 function App() {
   return (
-    <div>
-      <header>
-        <svg />
-        <a href='mailto:developer@irvinemmanuel.xyz' target='_blank' rel='noreferrer'>
-          developer@irvinemmanuel.xyz
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Hero />
+      <SobreMi />
+    </>
   );
 }
 
