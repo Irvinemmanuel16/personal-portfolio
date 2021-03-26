@@ -1,9 +1,10 @@
 import "tailwindcss/tailwind.css";
+import { BrowserRouter as Router } from 'react-router-dom'
 import Header from './Header';
 import Hero from "./Hero";
 import SobreMi from './SobreMi'
-
-
+import Habilidades from "./Habilidades";
+import Trabajos from "./Trabajos";
 import '../styles/App.css';
 
 function App() {
@@ -12,6 +13,10 @@ function App() {
       <Header />
       <Hero />
       <SobreMi />
+      <Habilidades />
+      <Router>
+        <Trabajos />
+      </Router>
     </>
   );
 }

@@ -14,6 +14,21 @@
   background-repeat: no-repeat;
   background-clip:border-box;
 }
+.noteIt{
+  background-image: url(../assets/note-it.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.textIt{
+  background-image: url(../assets/text-it.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.shoppingIt{
+  background-image: url(../assets/shoppin-it.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 h5 {
   font-family: 'Open Sans', sans-serif;
