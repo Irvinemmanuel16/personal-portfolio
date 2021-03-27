@@ -2,12 +2,12 @@ import { ReactLogo, NodeLogo, MongoLogo, WebpackLogo, SassLogo } from './Logos'
 
 export default function Habilidades() {
   return (
-    <section className='mt-6 px-8 flex flex-col'>
-      <h5>Autocrítico, sin dejar de</h5>
-      <h6>aprender</h6>
-      <div className='grid md:grid-flow-col mt-8'>
-        <p className='flex font-open text-gray text-xl justify-center items-center font-bold md:col-start-2 h-10'>Habilidades</p>
-        <div className='grid grid-cols-3 mt-8 justify-items-center items-center gap-6'>
+    <section className='mt-6 md:pt-6 px-8 md:px-16 flex flex-col relative'>
+      <h5 className='md:text-4xl'>Autocrítico, sin dejar de</h5>
+      <h6 className='md:text-5xl'>aprender</h6>
+      <div className='mt-8 md:h-auto'>
+        <p className='font-open flex text-gray text-xl md:text-3xl justify-center font-bold transform md:rotate-90 md:tracking-widest md:self-center md:absolute md:-right-18 md:bottom-24 h-auto'>Habilidades</p>
+        <div className='grid grid-cols-3 mt-8 md:mt-12 justify-items-center items-center gap-6'>
           <ReactLogo />
           <NodeLogo />
           <MongoLogo />

@@ -12,7 +12,6 @@
   background-image: url(../assets/hero-logo.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-clip:border-box;
 }
 .noteIt{
   background-image: url(../assets/note-it.svg);
@@ -33,6 +32,7 @@
 h5 {
   font-family: 'Open Sans', sans-serif;
   color: white;
+  font-weight: 700;
   font-size: 20px;
   line-height: 27px;
 }

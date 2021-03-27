@@ -6,6 +6,7 @@ import SobreMi from './SobreMi'
 import Habilidades from "./Habilidades";
 import Trabajos from "./Trabajos";
 import '../styles/App.css';
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Router>
         <Trabajos />
       </Router>
+      <Footer />
     </>
   );
 }
