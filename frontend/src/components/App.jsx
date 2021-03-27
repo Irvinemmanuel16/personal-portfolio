@@ -1,4 +1,3 @@
-import "tailwindcss/tailwind.css";
 import { BrowserRouter as Router } from 'react-router-dom'
 import Header from './Header';
 import Hero from "./Hero";
