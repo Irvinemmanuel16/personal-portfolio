@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm i --prefix frontend && npm run build --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Irvinemmanuel16/personal-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Irvinemmanuel16/personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/Irvinemmanuel16/personal-portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
