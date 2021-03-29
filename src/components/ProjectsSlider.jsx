@@ -25,18 +25,18 @@ export default function ProjectsSlider() {
 
 	return (
 		<div className='grid mt-10'>
-			<button className='text-xl text-white flex items-center justify-center col-start-1 row-start-1 outline-none focus:outline-none' onClick={prevSlide}>
+			<button className='h-10 text-xl text-white flex self-center items-center justify-center col-start-1 row-start-1 outline-none focus:outline-none' onClick={prevSlide}>
 				<img className='h-auto w-4' src={backward} alt="backward arrow"/>
 			</button>
-			<button className='text-xl text-white flex items-center justify-center col-start-3 row-start-1 outline-none focus:outline-none' onClick={nextSlide}>
+			<button className='h-10 text-xl text-white flex self-center items-center justify-center col-start-3 row-start-1 outline-none focus:outline-none' onClick={nextSlide}>
 				<img className='h-auto w-4' src={forward} alt="forward arrow"/>
 			</button>
-			<div className='flex overflow-x-scroll w-full'>
+			<div className='flex overflow-x-auto w-5/6 mx-auto'>
 				{sliderData.map((slide, index) => {
 					return(
 						<>
 							{index === current
-								? <Link to={slide.to} ref={focusRef} className='flex items-center justify-center relative flex-shrink-0'><img className='h-auto transition duration-500' src={slide.image} alt={slide.alt} key={index} /><p className='z-10 text-white absolute font-open font-bold text-2xl'>{slide.title}</p></Link> 
+								? <Link to={slide.to} ref={focusRef} className='flex items-center justify-center relative flex-shrink-0'><img className='h-auto w-5/6 md:w-full transition duration-500' src={slide.image} alt={slide.alt} key={index} /><p className='z-10 text-white absolute font-open font-bold text-2xl'>{slide.title}</p></Link> 
 								: <Link to={slide.to} className='flex items-center justify-center relative flex-shrink-0'><img className='h-auto transition duration-500 transform scale-75' src={slide.image} alt={slide.alt} key={index} /></Link>
 							}
 						</>
@@ -46,10 +46,10 @@ export default function ProjectsSlider() {
 			<div className='row-start-2 col-start-2 flex mt-4 justify-center'>
 				{sliderData.map((image, index) => {
 					return(
-					<span onClick={() => setCurrent(index)} key={index} className='p-2 pt-4'>
+					<span onClick={() => setCurrent(index)} className='p-2 pt-4'>
 						{current === index 
-							? <img className='transition duration-300' src={activeDot} alt="activedot"/> 
-							: <img className='transition duration-300' src={dot} alt="dot"/>
+							? <img className='transition duration-300' key={index} src={activeDot} alt="activedot"/> 
+							: <img className='transition duration-300' key={index} src={dot} alt="dot"/>
 						}
 					</span>
 					)

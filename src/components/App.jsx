@@ -10,14 +10,14 @@ import Footer from "./Footer";
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
-      <SobreMi />
-      <Habilidades />
       <Router>
+        <Header />
+        <Hero />
+        <SobreMi />
+        <Habilidades />
         <Proyectos />
+        <Footer />
       </Router>
-      <Footer />
     </>
   );
 }
