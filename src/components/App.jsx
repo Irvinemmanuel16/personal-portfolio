@@ -3,7 +3,7 @@ import Header from './Header';
 import Hero from "./Hero";
 import SobreMi from './SobreMi'
 import Habilidades from "./Habilidades";
-import Trabajos from "./Trabajos";
+import Proyectos from "./Proyectos";
 import '../styles/App.css';
 import Footer from "./Footer";
 
@@ -15,7 +15,7 @@ function App() {
       <SobreMi />
       <Habilidades />
       <Router>
-        <Trabajos />
+        <Proyectos />
       </Router>
       <Footer />
     </>

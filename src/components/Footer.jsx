@@ -2,7 +2,7 @@ import { PersonalLogo } from './Logos'
 
 export default function Footer() {
   return (
-    <footer className='px-8 mt-1 flex flex-col items-center'>
+    <footer className='px-8 mt-10 flex flex-col items-center'>
       <h5 className='text-orange text-right'>"Si les hubiese preguntado qué querían, ellos habrían pedido caballos más rápidos."</h5>
       <p className='font-source text-white self-end py-6'>Henry Ford</p>
       <hr className='w-80 border-2 border-orange bg-orange rounded my-1' />
