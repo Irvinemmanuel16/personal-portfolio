@@ -5,6 +5,10 @@ import nodeLogo from '../assets/node-logo.svg'
 import mongoLogo from '../assets/mongo-logo.svg'
 import sassLogo from '../assets/sass-logo.svg'
 import personalLogo from '../assets/logo-personal.svg'
+import linkedinLogo from '../assets/linkedin-logo.svg'
+import githubLogo from '../assets/github-logo.svg'
+import instagramLogo from '../assets/instagram-logo.svg'
+
 
 export const Logo = () => (
   <img className='h-auto md:w-10' src={logo} alt="logo" />
@@ -48,3 +52,16 @@ export const SassLogo = () => (
 export const PersonalLogo = () => (
   <img className='self-center my-8' src={personalLogo} alt="personal logo" />
 )
+
+export const LinkedinLogo = () => (
+  <img className='h-auto w-8' src={linkedinLogo} alt="linkedin logo" />
+)
+
+export const InstagramLogo = () => (
+  <img className='h-auto w-8' src={instagramLogo} alt="instagram logo" />
+)
+
+export const GithubLogo = () => (
+  <img className='h-auto w-8' src={githubLogo} alt="github logo" />
+)
+

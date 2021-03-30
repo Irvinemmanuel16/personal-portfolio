@@ -7,19 +7,22 @@ const sliderData = [
     image: noteitBg,
     title: 'NoteIt',
     alt: 'A litle demonstration of the NoteIt project',
-    to: '/'
+    to: '/',
+    id: '123'
   },
   {
     image: textitBg,
     title: 'TextIt',
     alt: 'A litle demonstration of the texIt project',
-    to: '/'
+    to: '/',
+    id: '456'
   },
   {
     image: shoppinitBg,
     title: 'ShoppingIt',
     alt: 'A litle demonstration of the shoppingIt project',
-    to: '/'
+    to: '/',
+    id: '789'
   }
 ]
 

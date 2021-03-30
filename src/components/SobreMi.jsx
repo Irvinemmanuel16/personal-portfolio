@@ -1,6 +1,6 @@
 export default function SobreMi() {
   return (
-    <section className='mt-14 px-8 md:px-16 flex flex-col relative'>
+    <section id='sobreMi' className='mt-14 px-8 md:px-16 flex flex-col relative'>
       <h5 className='md:text-4xl'>Autodidacta y entusiasta del</h5>
       <h6 className='md:text-5xl'>desarrollo web</h6>
       <div className='mt-6 md:h-auto'>

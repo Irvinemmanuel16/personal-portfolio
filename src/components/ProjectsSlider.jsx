@@ -31,25 +31,25 @@ export default function ProjectsSlider() {
 			<button className='h-10 text-xl text-white flex self-center items-center justify-center col-start-3 row-start-1 outline-none focus:outline-none' onClick={nextSlide}>
 				<img className='h-auto w-4' src={forward} alt="forward arrow"/>
 			</button>
-			<div className='flex overflow-x-auto w-5/6 mx-auto'>
+			<div className='flex overflow-x-hidden w-5/6 mx-auto'>
 				{sliderData.map((slide, index) => {
 					return(
-						<>
+						<div className='flex-shrink-0' key={index}>
 							{index === current
-								? <Link to={slide.to} ref={focusRef} className='flex items-center justify-center relative flex-shrink-0'><img className='h-auto w-5/6 md:w-full transition duration-500' src={slide.image} alt={slide.alt} key={index} /><p className='z-10 text-white absolute font-open font-bold text-2xl'>{slide.title}</p></Link> 
-								: <Link to={slide.to} className='flex items-center justify-center relative flex-shrink-0'><img className='h-auto transition duration-500 transform scale-75' src={slide.image} alt={slide.alt} key={index} /></Link>
+								? <Link to={slide.to} ref={focusRef} className='flex items-center justify-center relative transition duration-500'><img className='h-auto w-5/6 md:w-full' src={slide.image} alt={slide.alt} key={slide.id} /><p className='z-10 text-white absolute font-open font-bold text-2xl'>{slide.title}</p></Link> 
+								: <Link to={slide.to} className='flex items-center justify-center relative transition duration-500 transform scale-75'><img className='h-auto w-5/6 md:w-full' src={slide.image} alt={slide.alt} key={slide.id} /></Link>
 							}
-						</>
+						</div>
 					)
 				})}
 			</div>
 			<div className='row-start-2 col-start-2 flex mt-4 justify-center'>
 				{sliderData.map((image, index) => {
 					return(
-					<span onClick={() => setCurrent(index)} className='p-2 pt-4'>
+					<span onClick={() => setCurrent(index)} key={`dot-${index}`} className='p-2 pt-4 cursor-pointer'>
 						{current === index 
-							? <img className='transition duration-300' key={index} src={activeDot} alt="activedot"/> 
-							: <img className='transition duration-300' key={index} src={dot} alt="dot"/>
+							? <img className='transition duration-300' key={`active-${index}`} src={activeDot} alt="activedot"/> 
+							: <img className='transition duration-300' key={`dotactive-${index}`} src={dot} alt="dot"/>
 						}
 					</span>
 					)
