@@ -1,8 +1,8 @@
 import { ReactLogo, NodeLogo, MongoLogo, WebpackLogo, SassLogo } from './Logos'
 
-export default function Habilidades() {
+export default function Habilidades({ reference }) {
   return (
-    <section id='habilidades' className='mt-6 md:pt-6 px-8 md:px-16 flex flex-col relative'>
+    <section ref={reference} className='mt-6 md:pt-6 px-8 md:px-16 flex flex-col relative'>
       <h5 className='md:text-4xl'>Autocrítico, sin dejar de</h5>
       <h6 className='md:text-5xl'>aprender</h6>
       <div className='mt-8 md:h-auto'>

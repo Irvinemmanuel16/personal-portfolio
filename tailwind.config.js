@@ -9,7 +9,7 @@ module.exports = {
       sm: '360px',
       md: '700px',
       lg: '900px',
-      xl: '1140px',
+      xl: '1024px',
       '2xl': '1366px',
     },
     colors: {
@@ -22,7 +22,7 @@ module.exports = {
       red: colors.red,
       yellow: colors.amber,
       green: colors.emerald,
-      blue: colors.blue,
+      blue: '#002A66',
       indigo: colors.indigo,
       purple: colors.violet,
       pink: colors.pink,

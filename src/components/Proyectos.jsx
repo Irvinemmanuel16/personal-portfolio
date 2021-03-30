@@ -1,8 +1,8 @@
 import ProjectsSlider from './ProjectsSlider';
 
-export default function Proyectos() {
+export default function Proyectos({ reference }) {
   return (
-    <section id='proyectos' className='mt-16 md:mt-20 px-8 md:px-16 flex flex-col relative'>
+    <section ref={reference} id='proyectos' className='mt-16 md:mt-20 px-8 md:px-16 flex flex-col relative'>
       <h5 className='md:text-4xl'>Enfocado en la</h5>
       <h6 className='md:text-5xl'>funcionalidad<br />y diseño</h6>
       <div className='mt-8'>
