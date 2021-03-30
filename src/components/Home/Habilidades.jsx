@@ -1,4 +1,4 @@
-import { ReactLogo, NodeLogo, MongoLogo, WebpackLogo, SassLogo } from './Logos'
+import { ReactLogo, NodeLogo, MongoLogo, WebpackLogo, SassLogo } from '../Logos'
 
 export default function Habilidades({ reference }) {
   return (

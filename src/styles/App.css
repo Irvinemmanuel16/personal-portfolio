@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Source+Sans+Pro:wght@300;400&family=Paytone+One&display=swap');
 
 .font-source {
   font-family: 'Source Sans Pro';
@@ -8,23 +8,27 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.font-pay {
+  font-family: 'Paytone One', sans-serif;
+}
+
 .hero{
-  background-image: url(../assets/hero-logo.svg);
+  background-image: url(../assets/logos/hero-logo.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
 .noteIt{
-  background-image: url(../assets/note-it.svg);
+  background-image: url(../assets/images/note-it.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
 .textIt{
-  background-image: url(../assets/text-it.svg);
+  background-image: url(../assets/images/text-it.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
 .shoppingIt{
-  background-image: url(../assets/shoppin-it.svg);
+  background-image: url(../assets/images/shoppin-it.svg);
   background-position: center;
   background-repeat: no-repeat;
 }

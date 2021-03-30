@@ -1,13 +1,13 @@
-import logo from '../assets/logo.svg';
-import webpack from '../assets/webpack-logo.svg'
-import reactLogo from '../assets/react-logo.svg'
-import nodeLogo from '../assets/node-logo.svg'
-import mongoLogo from '../assets/mongo-logo.svg'
-import sassLogo from '../assets/sass-logo.svg'
-import personalLogo from '../assets/logo-personal.svg'
-import linkedinLogo from '../assets/linkedin-logo.svg'
-import githubLogo from '../assets/github-logo.svg'
-import instagramLogo from '../assets/instagram-logo.svg'
+import logo from '../assets/logos/logo.svg';
+import webpack from '../assets/logos/webpack-logo.svg'
+import reactLogo from '../assets/logos/react-logo.svg'
+import nodeLogo from '../assets/logos/node-logo.svg'
+import mongoLogo from '../assets/logos/mongo-logo.svg'
+import sassLogo from '../assets/logos/sass-logo.svg'
+import personalLogo from '../assets/logos/logo-personal.svg'
+import linkedinLogo from '../assets/logos/linkedin-logo.svg'
+import githubLogo from '../assets/logos/github-logo.svg'
+import instagramLogo from '../assets/logos/instagram-logo.svg'
 
 
 export const Logo = () => (

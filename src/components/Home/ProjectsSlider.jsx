@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom'
-import sliderData from '../utils/sliderData';
-import dot from '../assets/dot.svg'
-import activeDot from '../assets/dot-active.svg'
-import forward from '../assets/forward.svg'
-import backward from '../assets/backward.svg'
+import sliderData from '../../utils/sliderData';
+import dot from '../../assets/utilities/dot.svg'
+import activeDot from '../../assets/utilities/dot-active.svg'
+import forward from '../../assets/utilities/forward.svg'
+import backward from '../../assets/utilities/backward.svg'
 
 export default function ProjectsSlider() {
 	const [current, setCurrent] = useState(0);
