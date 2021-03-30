@@ -44,3 +44,6 @@ h6 {
   line-height: 47px;
 }
 
+.names:hover .sections {
+  opacity: 1;
+}
