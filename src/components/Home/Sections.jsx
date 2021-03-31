@@ -2,7 +2,7 @@ export default function Sections({ reference }) {
   const { projectsRef, aboutMeRef, skillsRef } = reference;
 
   return (
-    <nav className='hidden xl:flex font-source font-light text-white text-xl w-64 h-32 fixed top-28 left-10 names' style={{ zIndex: 1000 }}>
+    <nav className='hidden xl:flex font-source font-light text-white text-xl w-64 lg:w-72 h-32 lg:h-36 fixed top-28 left-10 names' style={{ zIndex: 1000 }}>
       <ul className='flex flex-col justify-around w-1/6 items-center p-2 bg-blue'>
         <li>1</li>
         <hr className='w-5/6'/>
