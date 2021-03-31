@@ -29,8 +29,8 @@ export default function Home({ match }) {
       <Habilidades reference={skillsRef} />
       <Proyectos reference={projectsRef} />
       <div className='flex flex-col px-14 mt-10 md:mt-16 lg:items-end lg:px-28'>
-        <h5 className='text-orange font-bold lg:text-4xl md:text-4xl lg:text-right lg:w-4/6'>"Si les hubiese preguntado qué querían, ellos habrían pedido caballos más rápidos."</h5>
-        <p className='font-source md:text-3xl lg:text-4xl text-white pt-4 lg:text-right lg:w-4/6'>Henry Ford</p>
+        <h5 className='text-orange font-bold lg:text-4xl md:text-4xl text-right lg:w-4/6'>"Si les hubiese preguntado qué querían, ellos habrían pedido caballos más rápidos."</h5>
+        <p className='font-source md:text-3xl lg:text-4xl text-white pt-4 text-right lg:w-4/6'>Henry Ford</p>
       </div>
       <Footer />
     </>
