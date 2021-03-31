@@ -1,8 +1,17 @@
+import { useEffect } from "react";
 import Header from "../Header";
 import Hero from './Hero'
 import Propuesta from "./Propuesta";
 
 export default function NoteIt({ match }) {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+  }, [])
+
   return(
     <>
       <Header match={match}/>

@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import Hero from "./Hero";
 import SobreMi from './SobreMi'
 import Habilidades from "./Habilidades";
@@ -11,6 +11,14 @@ export default function Home({ match }) {
   const projectsRef = useRef()
   const aboutMeRef = useRef()
   const skillsRef = useRef()
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'auto'
+    });
+  }, [])
 
   return (
     <>
