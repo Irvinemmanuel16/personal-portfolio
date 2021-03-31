@@ -2,13 +2,11 @@ import { InstagramLogo, LinkedinLogo, PersonalLogo, GithubLogo } from './Logos'
 
 export default function Footer() {
   return (
-    <footer className='px-8 mt-12 md:px-16 xl:px-28 flex flex-col items-center'>
-      <h5 className='text-orange text-right lg:text-4xl w-80 self-end'>"Si les hubiese preguntado qué querían, ellos habrían pedido caballos más rápidos."</h5>
-      <p className='font-source md:font-bold lg:text-4xl text-white self-end py-6'>Henry Ford</p>
-      <hr className='w-80 md:w-5/6 border-2 border-orange bg-orange rounded my-1' />
+    <footer className='px-8 mt-12 md:px-16 lg:px-28 xl:px-28 flex flex-col items-center'>
+      <hr className='w-80 md:w-5/6 border-2 border-orange bg-orange rounded my-1 md:my-12' />
       <PersonalLogo />
-      <a className='font-open text-orange' href='mailto:developer@irvinemmanuel.xyz'>developer@irvinemmanuel.xyz</a>
-      <div className='flex justify-evenly my-8 w-36'>
+      <a className='font-open text-orange md:text-xl md:py-4' href='mailto:developer@irvinemmanuel.xyz'>developer@irvinemmanuel.xyz</a>
+      <div className='flex justify-evenly lg:justify-between my-8 w-36 md:w-40 lg:w-44'>
         <a target='blank' rel='noreferrer' href="https://www.linkedin.com/in/irvin-emmanuel-b232b81aa/">
           <LinkedinLogo />
         </a>

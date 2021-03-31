@@ -14,12 +14,12 @@ export default function Header({ reference, match }) {
       </Link>
       {
         match?.path === '/'
-        ? <span onClick={handleClick} className='text-white font-source md:text-lg xl:text-xl cursor-pointer font-normal'>
+        ? <span onClick={handleClick} className='text-white font-source md:text-lg lg:text-xl cursor-pointer font-normal'>
             Proyectos
           </span>
         : <>
             {match?.path === '/noteIt' &&
-              <a href='https://fierce-depths-60167.herokuapp.com/' rel='noreferrer' target='blank' className='text-white font-source md:text-lg xl:text-xl cursor-pointer font-normal'>
+              <a href='https://fierce-depths-60167.herokuapp.com/' rel='noreferrer' target='blank' className='text-white font-source md:text-lg lg:text-xl cursor-pointer font-normal'>
                 Ir al sitio
               </a>
             }

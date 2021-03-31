@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Source+Sans+Pro:wght@300;400&family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Source+Sans+Pro:wght@300;400&family=Paytone+One&display=swap');
 
 .font-source {
   font-family: 'Source Sans Pro';
@@ -16,6 +16,7 @@
   background-image: url(../assets/logos/hero-logo.svg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 .noteIt{
   background-image: url(../assets/images/note-it.svg);

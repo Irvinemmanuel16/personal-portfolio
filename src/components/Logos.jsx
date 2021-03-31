@@ -50,18 +50,18 @@ export const SassLogo = () => (
 )
 
 export const PersonalLogo = () => (
-  <img className='self-center my-8' src={personalLogo} alt="personal logo" />
+  <img className='self-center my-8 h-auto md:w-20' src={personalLogo} alt="personal logo" />
 )
 
 export const LinkedinLogo = () => (
-  <img className='h-auto w-8' src={linkedinLogo} alt="linkedin logo" />
+  <img className='h-auto w-8 md:w-10 lg:w-12' src={linkedinLogo} alt="linkedin logo" />
 )
 
 export const InstagramLogo = () => (
-  <img className='h-auto w-8' src={instagramLogo} alt="instagram logo" />
+  <img className='h-auto w-8 md:w-10 lg:w-12' src={instagramLogo} alt="instagram logo" />
 )
 
 export const GithubLogo = () => (
-  <img className='h-auto w-8' src={githubLogo} alt="github logo" />
+  <img className='h-auto w-8 md:w-10 lg:w-12' src={githubLogo} alt="github logo" />
 )
 

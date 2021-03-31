@@ -47,7 +47,7 @@ export default function ProjectsSlider() {
 	}, [current])
 
 	return (
-		<div className='grid mt-10'>
+		<div className='grid mt-10 md:mt-14'>
 			<button className='h-10 text-xl text-white flex self-center items-center justify-center col-start-1 row-start-1 outline-none focus:outline-none' onClick={prevSlide}>
 				<img className='h-auto w-4' src={backward} alt="backward arrow"/>
 			</button>
@@ -76,8 +76,8 @@ export default function ProjectsSlider() {
 					return(
 					<span onClick={() => setCurrent(index)} key={`dot-${index}`} className='p-2 pt-4 cursor-pointer'>
 						{current === index 
-							? <img className='transition duration-300' key={`active-${index}`} src={activeDot} alt="activedot"/> 
-							: <img className='transition duration-300' key={`dotactive-${index}`} src={dot} alt="dot"/>
+							? <img className='transition duration-500' key={`active-${index}`} src={activeDot} alt="activedot"/> 
+							: <img className='transition duration-500' key={`dotactive-${index}`} src={dot} alt="dot"/>
 						}
 					</span>
 					)
