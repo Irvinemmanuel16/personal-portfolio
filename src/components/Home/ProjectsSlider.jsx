@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom'
-import sliderData from '../../utils/sliderData';
+import {sliderData} from '../../utils/data';
 import dot from '../../assets/utilities/dot.svg'
 import activeDot from '../../assets/utilities/dot-active.svg'
 import forward from '../../assets/utilities/forward.svg'

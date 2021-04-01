@@ -1,6 +1,6 @@
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom'
 import Home from "./Home/Home";
-import NoteIt from './NoteIt/NoteIt'
+import NoteIt from './NoteIt'
 import '../styles/App.css';
 
 function App() {

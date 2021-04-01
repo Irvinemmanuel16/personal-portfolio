@@ -1,5 +1,5 @@
 import { useRef, useEffect } from "react";
-import Hero from "./Hero";
+import HomeHero from "./HomeHero";
 import SobreMi from './SobreMi'
 import Habilidades from "./Habilidades";
 import Proyectos from "./Proyectos";
@@ -24,7 +24,7 @@ export default function Home({ match }) {
     <>
       <Header reference={projectsRef} match={match}/>
       <Sections reference={{ projectsRef, aboutMeRef, skillsRef }} />
-      <Hero />
+      <HomeHero />
       <SobreMi reference={aboutMeRef} />
       <Habilidades reference={skillsRef} />
       <Proyectos reference={projectsRef} />
