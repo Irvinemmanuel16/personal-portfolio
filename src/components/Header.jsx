@@ -23,6 +23,16 @@ export default function Header({ reference, match }) {
                 Ir al sitio
               </a>
             }
+            {match?.path === '/textIt' &&
+              <span className='text-white font-source md:text-lg lg:text-xl cursor-pointer font-normal'>
+                On develop
+              </span>
+            }
+            {match?.path === '/shoppingIt' &&
+              <span className='text-white font-source md:text-lg lg:text-xl cursor-pointer font-normal'>
+                On develop
+              </span>
+            }
           </>
       }
     </header>
