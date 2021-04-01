@@ -9,18 +9,18 @@ export default function Header({ reference, match }) {
 
   return (
     <header className='w-full pt-10 flex justify-around sm:justify-between sm:px-8 md:px-10'>
-      <Link to='/'>
+      <Link to='/' className='outline-none'>
         <Logo />
       </Link>
       {
         match?.path === '/'
         ? <span onClick={handleClick} className='text-white font-source md:text-lg lg:text-xl cursor-pointer font-normal'>
-            Proyectos
+            Projects
           </span>
         : <>
             {match?.path === '/noteIt' &&
               <a href='https://fierce-depths-60167.herokuapp.com/' rel='noreferrer' target='blank' className='text-white font-source md:text-lg lg:text-xl cursor-pointer font-normal'>
-                Ir al sitio
+                Go to the site
               </a>
             }
             {match?.path === '/textIt' &&

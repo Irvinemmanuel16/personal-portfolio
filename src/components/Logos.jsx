@@ -11,7 +11,7 @@ import instagramLogo from '../assets/logos/instagram-logo.svg'
 
 
 export const Logo = () => (
-  <img className='h-auto md:w-10' src={logo} alt="logo" />
+  <img className='h-auto w-8 md:w-10' src={logo} alt="logo" />
 )
 
 export const ReactLogo = () => (
