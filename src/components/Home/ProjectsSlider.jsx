@@ -64,8 +64,8 @@ export default function ProjectsSlider() {
 					return(
 						<div className='flex-shrink-0' key={index}>
 							{index === current
-								? <Link to={slide.to} ref={focusRef} className='flex items-center justify-center relative transition duration-500'><img className='h-auto w-5/6 md:w-full' src={slide.image} alt={slide.alt} key={slide.id} /><p className='z-10 text-white absolute font-open font-bold text-2xl'>{slide.title}</p></Link> 
-								: <Link to={slide.to} onClick={(e) => e.preventDefault()} className='flex items-center justify-center relative transition duration-500 transform scale-90'><img className='h-auto w-5/6 md:w-full' src={slide.image} alt={slide.alt} key={slide.id} /></Link>
+								? <Link to={slide.to} ref={focusRef} className='flex items-center justify-center relative transition duration-500'><img className='h-auto w-5/6 md:w-full rounded' src={slide.image} alt={slide.alt} key={slide.id} /><p className='z-10 text-white absolute font-open font-bold text-2xl'>{slide.title}</p></Link> 
+								: <Link to={slide.to} onClick={(e) => e.preventDefault()} className='flex items-center justify-center relative transition duration-500 transform scale-90 rounded'><img className='h-auto w-5/6 md:w-full' src={slide.image} alt={slide.alt} key={slide.id} /></Link>
 							}
 						</div>
 					)

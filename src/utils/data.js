@@ -1,45 +1,20 @@
-import noteitBg from '../assets/images/note-it.svg'
-import textitBg from '../assets/images/text-it.svg'
-import shoppinitBg from '../assets/images/shoppin-it.svg'
-import noteItDesktopMockup from '../assets/images/noteit-mock-up.svg'
-import noteItDesktopMockup2 from '../assets/images/noteit-mock-up2.svg'
-import noteItMobileMockup from '../assets/images/noteit-mobile-mock-up.svg'
-import noteItMobileMockup2 from '../assets/images/noteit-mobile-mock-up2.svg'
-import noteItMockup from '../assets/images/noteit-principal-mock-up.svg'
-import textItDesktopMockup from '../assets/images/textit-mock-up.svg'
-import textItDesktopMockup2 from '../assets/images/textit-mock-up2.svg'
-import textItDesktopMockup3 from '../assets/images/textit-mock-up3.svg'
-import textItMobileMockup from '../assets/images/textit-mobile-mock-up.svg'
-import textItMobileMockup2 from '../assets/images/textit-mobile-mock-up2.svg'
-import textItMockup from '../assets/images/textit-principal-mock-up.svg'
-import shoppingItDesktopMockup from '../assets/images/shoppingit-mock-up.svg'
-import shoppingItDesktopMockup2 from '../assets/images/shoppingit-mock-up2.svg'
-import shoppingItDesktopMockup3 from '../assets/images/shoppingit-mock-up3.svg'
-import shoppingItDesktopMockup4 from '../assets/images/shoppingit-mock-up4.svg'
-import shoppingItDesktopMockup5 from '../assets/images/shoppingit-mock-up5.svg'
-import shoppingItDesktopMockup6 from '../assets/images/shoppingit-mock-up6.svg'
-import shoppingItMobileMockup from '../assets/images/shoppingit-mobile-mock-up.svg'
-import shoppingItMobileMockup2 from '../assets/images/shoppingit-mobile-mock-up2.svg'
-import shoppingItMockup from '../assets/images/shoppingit-principal-mock-up.svg'
-
-
 const sliderData = [
   {
-    image: noteitBg,
+    image: 'https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/note-it_flozhHfhD3.svg',
     title: 'NoteIt',
     alt: 'A litle demonstration of the NoteIt project',
     to: '/noteIt',
     id: '123'
   },
   {
-    image: textitBg,
+    image: 'https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/text-it_mPtv8W8Xyi.svg',
     title: 'TextIt',
     alt: 'A litle demonstration of the texIt project',
     to: '/textIt',
     id: '456'
   },
   {
-    image: shoppinitBg,
+    image: 'https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppin-it_JhIpr036s.svg',
     title: 'ShoppingIt',
     alt: 'A litle demonstration of the shoppingIt project',
     to: '/shoppingIt',
@@ -57,18 +32,18 @@ const noteItData = {
     content: 'It'
   },
   subtitle: 'React - Express - Tailwindcss',
-  description: 'Organiza, anota y guarda tus apuntes importantes, todo en una única cuenta, sin complicaciones y con una interfaz intuitiva',
+  description: 'Organize, annotate and save your important notes, all in a single account, without complications and with an intuitive interface',
   year: 2020,
-  detailsTitle: 'Fresco, Innovador y',
-  detailsSubTitle: 'versátil',
-  detailsMockup: noteItMockup,
-  detailsDescription: 'Pensada para el usuario de agenda muy organizada, asi como para aquellos más espontáneos, brindando simplicidad y elegancia unificada en una app que puedes usar desde tu navegador.',
-  detailsConstruction: 'NoteIt está realizada con MERN stack, CSS y HTML.',
+  detailsTitle: 'Intuitive, innovative and',
+  detailsSubTitle: 'versatile',
+  detailsMockup: 'https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/noteit-principal-mock-up_eFaBQWFnK.svg',
+  detailsDescription: 'Designed for the user with a very organized agenda, as well as for those who are more spontaneous, providing simplicity and unified elegance in an app that you can use from your browser.',
+  detailsConstruction: 'Note It was made with MongoDB, React, Tailwindcss and the serverless methodology.',
   mockups: {
-    mobile: [noteItMobileMockup, noteItMobileMockup2],
-    desktop: [noteItDesktopMockup, noteItDesktopMockup2]
+    mobile: ['https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/noteit-mobile-mock-up_8ejSZU7n9.svg', 'https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/noteit-mobile-mock-up2_6bO1_S2oX.svg'],
+    desktop: ['https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/noteit-mock-up_m4PGtECBVj.svg', 'https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/noteit-mock-up2_BHfWTvr9Fv.svg']
   },
-  footerPhrase: 'El diseño, es el embajador silencioso de tu marca.',
+  footerPhrase: 'Design is the silent ambassador of your brand.',
   footerAutor: 'Paul Rand'
 }
 
@@ -82,18 +57,18 @@ const textItData = {
     content: 'It'
   },
   subtitle: 'React - Socket.Io - Tailwindcss',
-  description: 'Conéctate con las personas que quieres, rápido, fácil y sencillo, con un sistema de mensajería que puedes usar desde tu navegador',
+  description: 'Connect with your loved ones, quick, easy and simple with an app that you can use from your web browser',
   year: 2021,
-  detailsTitle: 'Fresco, Innovador y',
-  detailsSubTitle: 'versátil',
-  detailsMockup: textItMockup,
-  detailsDescription: 'Conectar de forma sencilla a nuestros usuarios es el principal motor de este proyecto. Personalizar tu perfil, agregar contactos y enviar emojis, son algunas de las funciones que TextIt, que no tiene nada que envidiarle a ningun sistema de mensajeria, puede ofrecer a sus usuarios.',
-  detailsConstruction: 'Por otra parte, TextIt involucra las principales tecnologías de desarrollo web, como css y html.',
+  detailsTitle: 'Intuitive, innovative and',
+  detailsSubTitle: 'versatile',
+  detailsMockup: 'https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/textit-principal-mock-up_bldTurvDKL.svg',
+  detailsDescription: 'Connecting our users in a simple way is the main reason for this project. Customizing your profile, adding contacts and sending emojis are some of the functions that TextIt, which has nothing to envy to any messaging system, can offer its users.',
+  detailsConstruction: 'On the other hand, TextIt involves the main web development technologies, such as css and html.',
   mockups: {
-    mobile: [textItMobileMockup, textItMobileMockup2],
-    desktop: [textItDesktopMockup, textItDesktopMockup2, textItDesktopMockup3]
+    mobile: ['https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/textit-mobile-mock-up_t_oqRCWak.svg', 'https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/textit-mobile-mock-up2_vhjy9N9ugZ.svg'],
+    desktop: ['https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/textit-mock-up_EHr5sUFv89.svg', 'https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/textit-mock-up2_EYXA4gmSzd.svg', 'https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/textit-mock-up3_mqGA_T30q7.svg']
   },
-  footerPhrase: 'El diseño, es el embajador silencioso de tu marca.',
+  footerPhrase: 'Simplicity is not the goal',
   footerAutor: 'Paul Rand'
 }
 
@@ -107,16 +82,16 @@ const shoppingItData = {
     content: ' it'
   },
   subtitle: 'React - AWS - Tailwindcss',
-  description: 'Find the products you want, manage your store and connect with your clients on a easy way.',
+  description: 'Find the products you want, manage your store and connect with your clients in a easy way.',
   year: 2021,
   detailsTitle: 'Intuitive, innovative and',
   detailsSubTitle: 'versatile',
-  detailsMockup: shoppingItMockup,
+  detailsMockup: 'https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-principal-mock-up__MXmq7S9U.svg',
   detailsDescription: 'An ecommerce made thinking on the user experience, offering an easy way to buy. For the side of the seller, we designed an interface to manage the whole store, from updating the stock to selecting the products that are shown to users.',
   detailsConstruction: '',
   mockups: {
-    mobile: [shoppingItMobileMockup, shoppingItMobileMockup2],
-    desktop: [shoppingItDesktopMockup, shoppingItDesktopMockup2, shoppingItDesktopMockup3, shoppingItDesktopMockup4, shoppingItDesktopMockup5, shoppingItDesktopMockup6]
+    mobile: ['https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mobile-mock-up_76HXo_i8iP.svg', 'https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mobile-mock-up2_oN_Q71sYXs.svg'],
+    desktop: ['https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mock-up_Rr0XG7jYkZ.svg', 'https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mock-up2_6iDy_355D.svg', 'https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mock-up3_nwcDg1CFf.svg', 'https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mock-up4_GLqS7xvbP2.svg', 'https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mock-up5_fUkF-mc1bJ.svg', 'https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mock-up6_ijQ4T4eksM.svg']
   },
   footerPhrase: 'Don\'t try to be original, just try to be good.',
   footerAutor: 'Paul Rand'
