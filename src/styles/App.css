@@ -18,21 +18,6 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
-.noteIt{
-  background-image: url(../assets/images/note-it.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.textIt{
-  background-image: url(../assets/images/text-it.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.shoppingIt{
-  background-image: url(../assets/images/shoppin-it.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-}
 
 h5 {
   font-family: 'Open Sans', sans-serif;
