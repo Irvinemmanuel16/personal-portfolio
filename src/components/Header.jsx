@@ -19,7 +19,7 @@ export default function Header({ reference, match }) {
           </span>
         : <>
             {match?.path === '/noteIt' &&
-              <a href='https://fierce-depths-60167.herokuapp.com/' rel='noreferrer' target='blank' className='text-white font-source md:text-lg lg:text-xl cursor-pointer font-normal'>
+              <a href='https://note-it-1624.netlify.app/' rel='noreferrer' target='blank' className='text-white font-source md:text-lg lg:text-xl cursor-pointer font-normal'>
                 Go to the site
               </a>
             }
