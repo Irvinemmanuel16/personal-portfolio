@@ -28,6 +28,16 @@
   background-size: contain;
 }
 
+.text-blue {
+  --tw-text-opacity: 1;
+  color: rgba(0, 42, 102, var(--tw-text-opacity));
+}
+
+.text-lightBlue {
+  --tw-text-opacity: 1;
+  color: rgba(28, 112, 234, var(--tw-text-opacity));
+}
+
 h5 {
   font-family: 'Open Sans', sans-serif;
   color: white;

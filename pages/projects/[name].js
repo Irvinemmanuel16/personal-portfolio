@@ -27,6 +27,7 @@ export default function Project({ project }) {
         <title>
           Project | {`${project['title1'].content}${project['title2'].content}`}
         </title>
+        <meta name='description' content={project.description} />
       </Head>
       <Header />
       <Hero

@@ -83,7 +83,7 @@ export default function ProjectsSlider() {
                       scroll: false,
                     })
                   }
-                  className='flex items-center justify-center relative transition duration-500'
+                  className='flex items-center justify-center relative cursor-pointer transition duration-500'
                 >
                   <img
                     className='h-auto w-5/6 md:w-full rounded'
