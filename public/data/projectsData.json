@@ -1,0 +1,180 @@
+{
+  "projectTitles": ["textIt", "noteIt", "shoppingIt"],
+  "projects": [
+    {
+      "title1": {
+        "color": "text-blue",
+        "content": "Note"
+      },
+      "title2": {
+        "color": "text-blue",
+        "content": "It"
+      },
+      "subtitle": "React - Express - Tailwindcss",
+      "description": "Organize, annotate and save your important notes, all in a single account, without complications and with an intuitive interface",
+      "year": 2020,
+      "detailsTitle": "Intuitive, innovative and",
+      "detailsSubTitle": "versatile",
+      "detailsMockup": {
+        "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/noteit-principal-mock-up_eFaBQWFnK.svg",
+        "width": 366,
+        "height": 577
+      },
+      "detailsDescription": "Designed for the user with a very organized agenda, as well as for those who are more spontaneous, providing simplicity and unified elegance in an app that you can use from your browser.",
+      "detailsConstruction": "Note It was made with MongoDB, React, Tailwindcss and the serverless methodology.",
+      "mockups": {
+        "mobile": [
+          {
+            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/noteit-mobile-mock-up_8ejSZU7n9.svg",
+            "width": 345,
+            "height": 600
+          },
+          {
+            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/noteit-mobile-mock-up2_6bO1_S2oX.svg",
+            "width": 345,
+            "height": 601
+          }
+        ],
+        "desktop": [
+          {
+            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/noteit-mock-up_m4PGtECBVj.svg",
+            "width": 859,
+            "height": 508
+          },
+          {
+            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/noteit-mock-up2_BHfWTvr9Fv.svg",
+            "width": 859,
+            "height": 514
+          }
+        ]
+      },
+      "footerPhrase": "Design is the silent ambassador of your brand.",
+      "footerAutor": "Paul Rand"
+    },
+    {
+      "title1": {
+        "color": "text-lightBlue",
+        "content": "Text"
+      },
+      "title2": {
+        "color": "text-orange",
+        "content": "It"
+      },
+      "subtitle": "React - Socket.Io - Tailwindcss",
+      "description": "Connect with your loved ones, quick, easy and simple with an app that you can use from your web browser",
+      "year": 2021,
+      "detailsTitle": "Intuitive, innovative and",
+      "detailsSubTitle": "versatile",
+      "detailsMockup": {
+        "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/textit-principal-mock-up_bldTurvDKL.svg",
+        "width": 372,
+        "height": 580
+      },
+      "detailsDescription": "Connecting our users in a simple way is the main reason for this project. Customizing your profile, adding contacts and sending emojis are some of the functions that TextIt, which has nothing to envy any messaging system, can offer its users.",
+      "detailsConstruction": "On the other hand, TextIt involves the main web development technologies, such as css and html.",
+      "mockups": {
+        "mobile": [
+          {
+            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/textit-mobile-mock-up_t_oqRCWak.svg",
+            "width": 413,
+            "height": 699
+          },
+          {
+            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/textit-mobile-mock-up2_vhjy9N9ugZ.svg",
+            "width": 414,
+            "height": 699
+          }
+        ],
+        "desktop": [
+          {
+            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/textit-mock-up_EHr5sUFv89.svg",
+            "width": 856,
+            "height": 512
+          },
+          {
+            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/textit-mock-up2_EYXA4gmSzd.svg",
+            "width": 856,
+            "height": 512
+          },
+          {
+            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/textit-mock-up3_mqGA_T30q7.svg",
+            "width": 856,
+            "height": 512
+          }
+        ]
+      },
+      "footerPhrase": "Simplicity is not the goal",
+      "footerAutor": "Paul Rand"
+    },
+    {
+      "title1": {
+        "color": "text-lightBlue",
+        "content": "Shopping"
+      },
+      "title2": {
+        "color": "text-lightBlue",
+        "content": "It"
+      },
+      "subtitle": "React - AWS - Tailwindcss",
+      "description": "Find the products you want, manage your store and connect with your clients in a easy way.",
+      "year": 2021,
+      "detailsTitle": "Intuitive, innovative and",
+      "detailsSubTitle": "versatile",
+      "detailsMockup": {
+        "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-principal-mock-up__MXmq7S9U.svg",
+        "width": 372,
+        "height": 583
+      },
+      "detailsDescription": "An ecommerce made thinking of the user experience, offering an easy way to buy. For the side of the seller, we designed an interface to manage the whole store, from updating the stock to selecting the products that are shown to users.",
+      "detailsConstruction": "",
+      "mockups": {
+        "mobile": [
+          {
+            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mobile-mock-up_76HXo_i8iP.svg",
+            "width": 440,
+            "height": 743
+          },
+          {
+            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mobile-mock-up2_oN_Q71sYXs.svg",
+            "width": 440,
+            "height": 743
+          }
+        ],
+        "desktop": [
+          {
+            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mock-up_Rr0XG7jYkZ.svg",
+            "width": 844,
+            "height": 506
+          },
+          {
+            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mock-up2_6iDy_355D.svg",
+            "width": 845,
+            "height": 505
+          },
+          {
+            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mock-up3_nwcDg1CFf.svg",
+            "width": 844,
+            "height": 505
+          },
+          {
+            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mock-up4_GLqS7xvbP2.svg",
+            "width": 845,
+            "height": 505
+          },
+          {
+            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mock-up5_fUkF-mc1bJ.svg",
+            "width": 844,
+            "height": 505
+          },
+          {
+            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mock-up6_ijQ4T4eksM.svg",
+            "width": 844,
+            "height": 505
+          }
+        ]
+      },
+      "footerPhrase": "Don't try to be original, just try to be good.",
+      "footerAutor": "Paul Rand"
+    }
+  ]
+}

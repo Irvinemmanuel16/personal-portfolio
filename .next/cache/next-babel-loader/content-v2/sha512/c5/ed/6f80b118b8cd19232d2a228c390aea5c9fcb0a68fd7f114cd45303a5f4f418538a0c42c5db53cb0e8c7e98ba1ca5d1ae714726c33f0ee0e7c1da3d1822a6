@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default function root() {\n  return 'hola';\n}","map":{"version":3,"sources":["/home/irvinemmanuel/projects/portfolio/src/pages/index.js"],"names":["root"],"mappings":"AAAA,eAAe,SAASA,IAAT,GAAgB;AAC7B,SAAO,MAAP;AACD","sourcesContent":["export default function root() {\n  return 'hola';\n}\n"]},"metadata":{},"sourceType":"module"}
