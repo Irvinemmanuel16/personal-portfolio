@@ -7,16 +7,7 @@ module.exports = {
       './components/**/*.{js,ts,jsx,tsx}',
     ],
     options: {
-      safelist: [
-        'my-4',
-        'hidden',
-        'text-gray',
-        'font-bold',
-        'text-white',
-        'text-2xl',
-        'text-blue',
-        'text-lightBlue',
-      ],
+      safelist: ['my-4', 'hidden', /^text-/, 'font-bold'],
     },
   },
   presets: [],
