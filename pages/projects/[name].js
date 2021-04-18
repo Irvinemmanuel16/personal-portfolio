@@ -51,12 +51,25 @@ export default function Project({ project }) {
   );
 }
 
-export async function getServerSideProps({ params }) {
+export async function getStaticProps({ params }) {
   const project = data?.projects.filter(project => {
     let title = project['title1'].content.concat('', project['title2'].content);
     return title.toLocaleLowerCase() === params?.name?.toLocaleLowerCase();
   });
   return {
     props: { project: project?.[0] },
+  };
+}
+
+export async function getStaticPaths() {
+  const paths = data?.projectTitles.map(project => ({
+    params: {
+      name: project,
+    },
+  }));
+
+  return {
+    paths,
+    fallback: false,
   };
 }
