@@ -4,12 +4,12 @@ export default function MockUps({ mockups }) {
   return (
     <div className='flex flex-col justify-between'>
       <div className='bg-orange h-auto mt-24 p-4 flex flex-col xl:w-3/4 xl:self-end items-center relative'>
-        <p className='font-open hidden text-gray text-xl mt-10 md:block md:text-3xl lg:text-4xl lg:font-extrabold font-bold transform md:rotate-90 md:tracking-widest md:flex md:self-center md:absolute md:-right-11 md:top-40 h-auto md:text-primary'>
+        <p className='font-open hidden text-gray text-xl mt-10 lg:block lg:text-3xl lg:text-4xl lg:font-extrabold font-bold transform lg:rotate-90 lg:tracking-widest lg:flex lg:self-center lg:absolute lg:-right-11 lg:top-40 h-auto lg:text-primary'>
           Approach
         </p>
         {mockups.desktop?.map((desktopMockup, index) => (
           <Image
-            key={`mobile-${index}`}
+            key={`desktop-${index}`}
             width={desktopMockup.width}
             height={desktopMockup.height}
             className='h-auto w-5/6 transition duration-300'

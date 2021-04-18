@@ -16,7 +16,7 @@ export default function Details({
       </p>
       <div className='flex flex-col md:w-3/6 lg:w-full lg:px-12 lg:mt-8 lg:flex-row lg:justify-center lg:items-center'>
         <Image
-          className='h-auto w-56 lg:w-2/6 my-4 md:my-8 transition duration-300'
+          className='h-auto w-56 lg:w-2/6 my-4 md:my-8'
           src={mockup.src}
           width={mockup.width}
           height={mockup.height}

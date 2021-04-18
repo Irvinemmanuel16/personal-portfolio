@@ -1,11 +1,24 @@
 const colors = require('tailwindcss/colors');
 
 module.exports = {
-  purge: [
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './pages/**/[*].{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
-  ],
+  purge: {
+    content: [
+      './pages/**/*.{js,ts,jsx,tsx}',
+      './components/**/*.{js,ts,jsx,tsx}',
+    ],
+    options: {
+      safelist: [
+        'my-4',
+        'hidden',
+        'text-gray',
+        'font-bold',
+        'text-white',
+        'text-2xl',
+        'text-blue',
+        'text-lightBlue',
+      ],
+    },
+  },
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
