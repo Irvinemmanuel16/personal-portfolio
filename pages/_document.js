@@ -1,4 +1,6 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Document, { Html, Main } from 'next/document';
+import NextScript from '../components/optimizer/NextScriptCustom';
+import Head from '../components/optimizer/HeadCustom';
 
 class MyDocument extends Document {
   render() {

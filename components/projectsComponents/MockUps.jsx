@@ -8,9 +8,11 @@ export default function MockUps({ mockups }) {
           Approach
         </p>
         {mockups.desktop?.map((desktopMockup, index) => (
-          <div className='h-auto w-5/6 transition duration-300'>
+          <div
+            key={`desktop-${index}`}
+            className='h-auto w-5/6 transition duration-300'
+          >
             <Image
-              key={`desktop-${index}`}
               width={desktopMockup.width}
               height={desktopMockup.height}
               src={desktopMockup.src}
@@ -21,9 +23,11 @@ export default function MockUps({ mockups }) {
       </div>
       <div className='bg-orange h-auto mt-10 p-4 pb-2 flex flex-col xl:w-3/4 xl:self-end md:flex-row lg:justify-center items-center'>
         {mockups.mobile?.map((mobileMockup, index) => (
-          <div className='h-auto transition duration-300'>
+          <div
+            key={`mobile-${index}`}
+            className='h-auto transition duration-300'
+          >
             <Image
-              key={`mobile-${index}`}
               width={mobileMockup.width}
               height={mobileMockup.height}
               src={mobileMockup.src}
