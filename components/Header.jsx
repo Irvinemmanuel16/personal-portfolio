@@ -28,7 +28,7 @@ export default function Header({ reference }) {
         <>
           {router?.query?.name === 'noteIt' && (
             <a
-              href='https://note-it-1624.netlify.app/'
+              href='https://noteit.irvinemmanuel.xyz/'
               rel='noreferrer'
               target='blank'
               className='text-white font-source md:text-lg lg:text-xl cursor-pointer font-normal'
