@@ -1,21 +1,21 @@
 {
   "slides": [
     {
-      "image": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/note-it_flozhHfhD3.svg",
+      "image": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/slider_images/note-it_flozhHfhD3.svg",
       "title": "NoteIt",
       "alt": "A litle demonstration of the NoteIt project",
       "to": "/projects/noteIt",
       "id": "123"
     },
     {
-      "image": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/text-it_mPtv8W8Xyi.svg",
+      "image": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/slider_images/text-it_mPtv8W8Xyi.svg",
       "title": "TextIt",
       "alt": "A litle demonstration of the texIt project",
       "to": "/projects/textIt",
       "id": "456"
     },
     {
-      "image": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppin-it_JhIpr036s.svg",
+      "image": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/slider_images/shoppin-it_JhIpr036s.svg",
       "title": "ShoppingIt",
       "alt": "A litle demonstration of the shoppingIt project",
       "to": "/projects/shoppingIt",

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { imageKitLoader } from "../../utils/loader";
 
 export default function MockUps({ mockups }) {
   return (
@@ -13,10 +14,11 @@ export default function MockUps({ mockups }) {
             className='h-auto w-5/6 transition duration-300'
           >
             <Image
+              loader={imageKitLoader}
               width={desktopMockup.width}
               height={desktopMockup.height}
               src={desktopMockup.src}
-              alt='A snapshot of the mobile version'
+              alt='A snapshot of the desktop version'
             />
           </div>
         ))}
@@ -28,6 +30,7 @@ export default function MockUps({ mockups }) {
             className='h-auto transition duration-300'
           >
             <Image
+              loader={imageKitLoader}
               width={mobileMockup.width}
               height={mobileMockup.height}
               src={mobileMockup.src}

@@ -16,7 +16,7 @@
       "detailsTitle": "Intuitive, innovative and",
       "detailsSubTitle": "versatile",
       "detailsMockup": {
-        "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/noteit-principal-mock-up_eFaBQWFnK.svg",
+        "src": "/portfolio_images/mockups/noteit-principal-mock-up_eFaBQWFnK.svg",
         "width": 366,
         "height": 577
       },
@@ -25,24 +25,24 @@
       "mockups": {
         "mobile": [
           {
-            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/noteit-mobile-mock-up_8ejSZU7n9.svg",
+            "src": "/portfolio_images/mockups/mobile/noteit-mobile-mock-up_8ejSZU7n9.svg",
             "width": 345,
             "height": 600
           },
           {
-            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/noteit-mobile-mock-up2_6bO1_S2oX.svg",
+            "src": "/portfolio_images/mockups/mobile/noteit-mobile-mock-up2_6bO1_S2oX.svg",
             "width": 345,
             "height": 601
           }
         ],
         "desktop": [
           {
-            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/noteit-mock-up_m4PGtECBVj.svg",
+            "src": "/portfolio_images/mockups/desktop/noteit-mock-up_m4PGtECBVj.svg",
             "width": 859,
             "height": 508
           },
           {
-            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/noteit-mock-up2_BHfWTvr9Fv.svg",
+            "src": "/portfolio_images/mockups/desktop/noteit-mock-up2_BHfWTvr9Fv.svg",
             "width": 859,
             "height": 514
           }
@@ -66,7 +66,7 @@
       "detailsTitle": "Intuitive, innovative and",
       "detailsSubTitle": "versatile",
       "detailsMockup": {
-        "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/textit-principal-mock-up_bldTurvDKL.svg",
+        "src": "/portfolio_images/mockups/textit-principal-mock-up_bldTurvDKL.svg",
         "width": 372,
         "height": 580
       },
@@ -75,29 +75,29 @@
       "mockups": {
         "mobile": [
           {
-            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/textit-mobile-mock-up_t_oqRCWak.svg",
+            "src": "/portfolio_images/mockups/mobile/textit-mobile-mock-up_t_oqRCWak.svg",
             "width": 413,
             "height": 699
           },
           {
-            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/textit-mobile-mock-up2_vhjy9N9ugZ.svg",
+            "src": "/portfolio_images/mockups/mobile/textit-mobile-mock-up2_vhjy9N9ugZ.svg",
             "width": 414,
             "height": 699
           }
         ],
         "desktop": [
           {
-            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/textit-mock-up_EHr5sUFv89.svg",
+            "src": "/portfolio_images/mockups/desktop/textit-mock-up_EHr5sUFv89.svg",
             "width": 856,
             "height": 512
           },
           {
-            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/textit-mock-up2_EYXA4gmSzd.svg",
+            "src": "/portfolio_images/mockups/desktop/textit-mock-up2_EYXA4gmSzd.svg",
             "width": 856,
             "height": 512
           },
           {
-            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/textit-mock-up3_mqGA_T30q7.svg",
+            "src": "/portfolio_images/mockups/desktop/textit-mock-up3_mqGA_T30q7.svg",
             "width": 856,
             "height": 512
           }
@@ -121,7 +121,7 @@
       "detailsTitle": "Intuitive, innovative and",
       "detailsSubTitle": "versatile",
       "detailsMockup": {
-        "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-principal-mock-up__MXmq7S9U.svg",
+        "src": "/portfolio_images/mockups/shoppingit-principal-mock-up__MXmq7S9U.svg",
         "width": 372,
         "height": 583
       },
@@ -130,44 +130,44 @@
       "mockups": {
         "mobile": [
           {
-            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mobile-mock-up_76HXo_i8iP.svg",
+            "src": "/portfolio_images/mockups/mobile/shoppingit-mobile-mock-up_76HXo_i8iP.svg",
             "width": 440,
             "height": 743
           },
           {
-            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mobile-mock-up2_oN_Q71sYXs.svg",
+            "src": "/portfolio_images/mockups/mobile/shoppingit-mobile-mock-up2_oN_Q71sYXs.svg",
             "width": 440,
             "height": 743
           }
         ],
         "desktop": [
           {
-            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mock-up_Rr0XG7jYkZ.svg",
+            "src": "/portfolio_images/mockups/desktop/shoppingit-mock-up_Rr0XG7jYkZ.svg",
             "width": 844,
             "height": 506
           },
           {
-            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mock-up2_6iDy_355D.svg",
+            "src": "/portfolio_images/mockups/desktop/shoppingit-mock-up2_6iDy_355D.svg",
             "width": 845,
             "height": 505
           },
           {
-            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mock-up3_nwcDg1CFf.svg",
+            "src": "/portfolio_images/mockups/desktop/shoppingit-mock-up3_nwcDg1CFf.svg",
             "width": 844,
             "height": 505
           },
           {
-            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mock-up4_GLqS7xvbP2.svg",
+            "src": "/portfolio_images/mockups/desktop/shoppingit-mock-up4_GLqS7xvbP2.svg",
             "width": 845,
             "height": 505
           },
           {
-            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mock-up5_fUkF-mc1bJ.svg",
+            "src": "/portfolio_images/mockups/desktop/shoppingit-mock-up5_fUkF-mc1bJ.svg",
             "width": 844,
             "height": 505
           },
           {
-            "src": "https://ik.imagekit.io/yw2w0b4ajqv/portfolio_images/shoppingit-mock-up6_ijQ4T4eksM.svg",
+            "src": "/portfolio_images/mockups/desktop/shoppingit-mock-up6_ijQ4T4eksM.svg",
             "width": 844,
             "height": 505
           }

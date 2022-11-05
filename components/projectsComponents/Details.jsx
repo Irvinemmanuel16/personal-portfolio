@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { imageKitLoader } from "../../utils/loader";
 
 export default function Details({
   title,
@@ -17,6 +18,8 @@ export default function Details({
       <div className='flex flex-col md:w-3/6 lg:w-full lg:px-12 lg:mt-8 lg:flex-row lg:justify-center lg:items-center'>
         <div className='h-auto w-56 lg:w-2/6 my-4 lg:my-8'>
           <Image
+            loader={imageKitLoader}
+            placeholder='blur'
             src={mockup.src}
             width={mockup.width}
             height={mockup.height}
